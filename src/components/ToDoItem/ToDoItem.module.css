@@ -1,0 +1,19 @@
+.TaskName{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+.TaskName input{
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    outline: none;
+}
+
+.actionButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}

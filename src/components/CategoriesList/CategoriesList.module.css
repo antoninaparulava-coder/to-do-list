@@ -1,0 +1,33 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 51px;
+    gap: 30px;
+}
+
+.list div{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    height: 135px;
+    gap: 1px;
+}
+
+.list div:hover{
+  transform: translateY(-3px);
+}
+
+.list p{
+    background: linear-gradient(180deg, #3D6BFF 0%, rgba(61, 107, 255, 0.63) 0.01%, #58A7F3 69.27%),
+    linear-gradient(180deg, #3D6BFF 0%, rgba(61, 107, 255, 0.63) 0.01%, #BACFE4 100%),
+    linear-gradient(180deg, rgba(213, 219, 238, 0.63) 0%, #C8D5E8 32.29%, #BED5E8 69.27%, rgba(208, 216, 234,0.58) 100%),
+    #000000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+    font-size: 24px;
+}

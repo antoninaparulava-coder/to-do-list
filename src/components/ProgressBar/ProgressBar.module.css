@@ -1,0 +1,24 @@
+.progressBar{
+    display: block;
+    background: rgba(89, 151, 213, 0.43);
+    border-radius: 41px;
+    width: 100%;
+    height: 8px;
+    position: relative;
+}
+
+.progressValue{
+    position: absolute;
+    top: -35px;
+    right: 0;
+}
+
+.progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: #5997D5;
+    transition: all .4s ease-in-out;
+}
